@@ -1,0 +1,23 @@
+.custom-table {
+  width: 100%;
+  position: relative;
+  min-height: 200px;
+  overflow: auto;
+  
+  .table-hover {
+    tr{
+      position: relative;
+      z-index: 99;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+   
+  }
+  .no-data {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    z-index: 1;
+  }
+}

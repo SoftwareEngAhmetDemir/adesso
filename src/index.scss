@@ -1,0 +1,65 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+// Required
+@import '../node_modules/bootstrap/scss/functions';
+
+// Default variable overrides
+$body-bg: #000;
+$body-color: #111;
+
+// Required
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+// Optional Bootstrap components here
+@import '../node_modules/bootstrap/scss/root';
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/type';
+// etc
+@import './styles/header';
+@import './styles/home';
+@import './styles/units-tables';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  margin: 0;
+  border: 1px solid;
+  margin: 20px;
+  min-height: calc(100dvh - 42px);
+}
+.multi-range-slider {
+  border: 0 !important;
+  box-shadow: none !important;
+  position: relative !important;
+  top: -11px;
+  width: 200px !important;
+  left: 5px;
+}
+.multi-range-slider .ruler {
+  display: none !important;
+}
+.multi-range-slider .bar-inner {
+  background-color: $primary !important;
+  box-shadow: $primary 0px 2px 7px !important;
+}
+.ranges {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 1px;
+  left: 267px;
+}
+
+.disabledThumb {
+  .thumb::before {
+    display: none !important;
+  }
+  .bar-inner {
+    background-color: #d1d1d1 !important;
+    box-shadow: none !important;
+  }
+}

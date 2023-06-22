@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`whole CostFilter should test CostFilter component 1`] = `
+<div>
+  <div>
+    <h5>
+      Costs
+    </h5>
+  </div>
+  <CostFilterBody />
+</div>
+`;

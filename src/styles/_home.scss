@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 100px);
+  // min-height: calc(100dvh - 42px - 81.8px);
+  img {
+    width: max(310px, 60vw);
+    height: auto;
+    object-fit: fill;
+  }
+}
+.custom-nav {
+  .nav-item {
+    border: 1px solid;
+    button {
+      border-radius: 0 !important;
+    }
+  }
+}
+@media (width <= 992px) {
+  .home {
+    align-items: flex-start;
+    margin-top: 100px;
+    width: 100%;
+  }
+  .nav-link {
+    padding: 5px !important;
+  }
+}

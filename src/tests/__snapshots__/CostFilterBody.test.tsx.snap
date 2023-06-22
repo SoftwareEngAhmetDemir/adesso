@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`whole CostFilter should test CostFilter component 1`] = `
+<div>
+  <div>
+    <h5>
+      Costs
+    </h5>
+  </div>
+  <CostFilterBody />
+</div>
+`;
+
+exports[`whole CostFilterBody should test CostFilter component 1`] = `
+<div>
+  <div
+    className="form-check d-flex align-center position-relative"
+  >
+    <div>
+      <input
+        checked={false}
+        className="form-check-input"
+        id="flexCheckDefault"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="form-check-label"
+        htmlFor="flexCheckDefault"
+      >
+        Wood
+      </label>
+    </div>
+    <div
+      className="disabledThumb"
+    >
+      <Memo([object Object])
+        max={200}
+        maxValue={5}
+        min={0}
+        minValue={0}
+        onInput={[Function]}
+        step={5}
+      />
+      <div
+        className="ranges"
+      >
+        <div
+          style={
+            Object {
+              "marginLeft": "10px",
+            }
+          }
+        >
+          -
+        </div>
+        <div
+          style={
+            Object {
+              "marginLeft": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="form-check d-flex align-center position-relative"
+  >
+    <div>
+      <input
+        checked={false}
+        className="form-check-input"
+        id="flexCheckDefault1"
+        onChange={[Function]}
+        type="checkbox"
+        value=""
+      />
+      <label
+        className="form-check-label1"
+        htmlFor="flexCheckDefault1"
+      >
+        Food
+      </label>
+    </div>
+    <div
+      className="disabledThumb"
+    >
+      <Memo([object Object])
+        max={200}
+        maxValue={5}
+        min={0}
+        minValue={0}
+        onInput={[Function]}
+        step={5}
+      />
+      <div
+        className="ranges"
+      >
+        <div
+          style={
+            Object {
+              "marginLeft": "10px",
+            }
+          }
+        >
+          -
+        </div>
+        <div
+          style={
+            Object {
+              "marginLeft": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="form-check d-flex align-center position-relative"
+  >
+    <div>
+      <input
+        checked={false}
+        className="form-check-input"
+        id="flexCheckDefault2"
+        onChange={[Function]}
+        type="checkbox"
+        value=""
+      />
+      <label
+        className="form-check-label2"
+        htmlFor="flexCheckDefault2"
+      >
+        Gold
+      </label>
+    </div>
+    <div
+      className="disabledThumb"
+    >
+      <Memo([object Object])
+        max={200}
+        maxValue={5}
+        min={0}
+        minValue={0}
+        onChange={[Function]}
+        onInput={[Function]}
+        step={5}
+      />
+      <div
+        className="ranges"
+      >
+        <div
+          style={
+            Object {
+              "marginLeft": "10px",
+            }
+          }
+        >
+          -
+        </div>
+        <div
+          style={
+            Object {
+              "marginLeft": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-none"
+  >
+    <div
+      className="disabledThumb"
+    >
+      <Memo([object Object])
+        max={200}
+        maxValue={5}
+        min={0}
+        minValue={0}
+        onInput={[Function]}
+        step={5}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`whole CostFilterBody should test CostFilterBody component 1`] = `
+<div>
+  <div
+    className="form-check d-flex align-center position-relative"
+  >
+    <div>
+      <input
+        checked={false}
+        className="form-check-input"
+        id="flexCheckDefault"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="form-check-label"
+        htmlFor="flexCheckDefault"
+      >
+        Wood
+      </label>
+    </div>
+    <div
+      className="disabledThumb"
+    >
+      <Memo([object Object])
+        max={200}
+        maxValue={5}
+        min={0}
+        minValue={0}
+        onInput={[Function]}
+        step={5}
+      />
+      <div
+        className="ranges"
+      >
+        <div
+          style={
+            Object {
+              "marginLeft": "10px",
+            }
+          }
+        >
+          -
+        </div>
+        <div
+          style={
+            Object {
+              "marginLeft": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="form-check d-flex align-center position-relative"
+  >
+    <div>
+      <input
+        checked={false}
+        className="form-check-input"
+        id="flexCheckDefault1"
+        onChange={[Function]}
+        type="checkbox"
+        value=""
+      />
+      <label
+        className="form-check-label1"
+        htmlFor="flexCheckDefault1"
+      >
+        Food
+      </label>
+    </div>
+    <div
+      className="disabledThumb"
+    >
+      <Memo([object Object])
+        max={200}
+        maxValue={5}
+        min={0}
+        minValue={0}
+        onInput={[Function]}
+        step={5}
+      />
+      <div
+        className="ranges"
+      >
+        <div
+          style={
+            Object {
+              "marginLeft": "10px",
+            }
+          }
+        >
+          -
+        </div>
+        <div
+          style={
+            Object {
+              "marginLeft": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="form-check d-flex align-center position-relative"
+  >
+    <div>
+      <input
+        checked={false}
+        className="form-check-input"
+        id="flexCheckDefault2"
+        onChange={[Function]}
+        type="checkbox"
+        value=""
+      />
+      <label
+        className="form-check-label2"
+        htmlFor="flexCheckDefault2"
+      >
+        Gold
+      </label>
+    </div>
+    <div
+      className="disabledThumb"
+    >
+      <Memo([object Object])
+        max={200}
+        maxValue={5}
+        min={0}
+        minValue={0}
+        onChange={[Function]}
+        onInput={[Function]}
+        step={5}
+      />
+      <div
+        className="ranges"
+      >
+        <div
+          style={
+            Object {
+              "marginLeft": "10px",
+            }
+          }
+        >
+          -
+        </div>
+        <div
+          style={
+            Object {
+              "marginLeft": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-none"
+  >
+    <div
+      className="disabledThumb"
+    >
+      <Memo([object Object])
+        max={200}
+        maxValue={5}
+        min={0}
+        minValue={0}
+        onInput={[Function]}
+        step={5}
+      />
+    </div>
+  </div>
+</div>
+`;

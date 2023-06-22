@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test AgeFilter component 1`] = `
+<Fragment>
+  <div>
+    <h5>
+      Ages
+    </h5>
+  </div>
+  <div>
+    <ul
+      className="custom-nav nav nav-pills mb-3"
+      id="pills-tab"
+      role="tablist"
+    >
+      <li
+        className="nav-item"
+        role="presentation"
+      >
+        <button
+          aria-controls="pills-home"
+          aria-selected="true"
+          className="nav-link active "
+          data-bs-target="#pills-home"
+          data-bs-toggle="pill"
+          id="pills-home-tab"
+          onClick={[Function]}
+          role="tab"
+          type="button"
+        >
+          ALL
+        </button>
+      </li>
+      <li
+        className="nav-item"
+        role="presentation"
+      >
+        <button
+          aria-controls="pills-profile"
+          aria-selected="false"
+          className="nav-link  "
+          data-bs-target="#pills-profile"
+          data-bs-toggle="pill"
+          id="pills-profile-tab"
+          onClick={[Function]}
+          role="tab"
+          type="button"
+        >
+          Dark
+        </button>
+      </li>
+      <li
+        className="nav-item"
+        role="presentation"
+      >
+        <button
+          aria-controls="pills-contact"
+          aria-selected="false"
+          className="nav-link  "
+          data-bs-target="#pills-contact"
+          data-bs-toggle="pill"
+          id="pills-contact-tab"
+          onClick={[Function]}
+          role="tab"
+          type="button"
+        >
+          Feudal
+        </button>
+      </li>
+      <li
+        className="nav-item"
+        role="presentation"
+      >
+        <button
+          aria-controls="pills-disabled"
+          aria-selected="false"
+          className="nav-link  "
+          data-bs-target="#pills-disabled"
+          data-bs-toggle="pill"
+          id="pills-disabled-tab"
+          onClick={[Function]}
+          role="tab"
+          type="button"
+        >
+          Castle
+        </button>
+      </li>
+      <li
+        className="nav-item"
+        role="presentation"
+      >
+        <button
+          aria-controls="pills-disabled2"
+          aria-selected="false"
+          className="nav-link  "
+          data-bs-target="#pills-disabled2"
+          data-bs-toggle="pill"
+          id="pills-disabled-tab2"
+          onClick={[Function]}
+          role="tab"
+          type="button"
+        >
+          Imperial
+        </button>
+      </li>
+    </ul>
+  </div>
+</Fragment>
+`;

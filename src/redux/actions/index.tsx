@@ -1,0 +1,6 @@
+export const GET_DATA_REQUEST= "GET_DATA_REQUEST";
+export const SET_STATUS = 'SET_STATUS';
+export const SET_COSTS_VALUE = 'SET_COSTS_VALUE';
+export const SET_COSTS_ACTIVES = 'SET_COSTS_ACTIVES';
+export const SET_FILTER = 'SET_FILTER';
+export const SET_INITIAL_STATE = 'SET_INITIAL_STATE';
