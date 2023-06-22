@@ -20,7 +20,7 @@ function FiteredTable() {
           id="pills-profile"
           role="tabpanel"
           aria-labelledby="pills-profile-tab"
-          tabIndex={1}
+          tabIndex={0}
         >
           <UnitsTables />
         </div>
@@ -31,7 +31,7 @@ function FiteredTable() {
           id="pills-contact"
           role="tabpanel"
           aria-labelledby="pills-contact-tab"
-          tabIndex={2}
+          tabIndex={0}
         >
           <UnitsTables />
         </div>
@@ -42,7 +42,7 @@ function FiteredTable() {
           id="pills-disabled"
           role="tabpanel"
           aria-labelledby="pills-disabled-tab"
-          tabIndex={3}
+          tabIndex={0}
         >
           <UnitsTables />
         </div>
@@ -53,7 +53,7 @@ function FiteredTable() {
           id="pills-disabled2"
           role="tabpanel"
           aria-labelledby="pills-disabled-tab2"
-          tabIndex={4}
+          tabIndex={0}
         >
           <UnitsTables />
         </div>
